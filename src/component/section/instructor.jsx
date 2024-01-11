@@ -1,4 +1,3 @@
-
 import pedja from '../../assets/images/contact/tim/pedja.jpeg';
 import nadja from '../../assets/images/contact/tim/nadja.jpeg';
 import kaca from '../../assets/images/contact/tim/kaca.jpeg';

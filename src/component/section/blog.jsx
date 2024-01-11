@@ -1,7 +1,9 @@
-
 import { Link } from "react-router-dom";
 import {useState} from "react";
 import {Button} from "react-bootstrap";
+
+import vest1 from '../../assets/images/vesti/vest1.jpeg';
+import LinkedInRadionicaVest from "../vesti/LinkedInRadionicaVest";
 
 
 const subTitle = "PROČITAJTE NAJNOVIJE";
@@ -10,63 +12,13 @@ const title = "Vesti vezane za Dane praksi";
 
 const blogList = [
     {
-        imgUrl: 'assets/images/blog/01.jpg',
+        imgUrl: vest1,
         imgAlt: 'blog thumb rajibraj91 rajibraj',
-        title: 'Bla bla bla',
-        author: 'Mina Kovačina',
-        date: 'Januar 05, 2024',
-        short: 'Započela je nova godina, a sa njom i nova dešavanja u Savezu studenata FON-a. Upravo je počeo novi ciklus Dana prakse, a prvi u nizu je Dan prakse za IT studente. Ovaj događaj će se održati 27. januara 2024. godine u periodu od 10 do 18 časova.',
-        longText: '<p>Započela je nova godina, a sa njom i nova dešavanja u Savezu studenata FON-a. Upravo je počeo novi ciklus Dana prakse, a prvi u nizu je Dan prakse za IT studente.</p> <p> Ovaj događaj će se održati 27. januara 2024. godine u periodu od 10 do 18 časova. Na ovom događaju će studenti imati priliku da se upoznaju sa kompanijama iz IT sektora, da čuju njihova iskustva i da se informišu o mogućnostima za praksu i zaposlenje. Osim toga, studenti će imati priliku da prisustvuju radionicama koje će održati kompanije, kao i da se prijave za fokus grupe. Ukoliko želite da saznate više o ovom događaju, posetite naš sajt i društvene mreže. Vidimo se!</p>',
-        btnText: 'Pročitaj više',
-    },
-    {
-        imgUrl: 'assets/images/blog/01.jpg',
-        imgAlt: 'blog thumb rajibraj91 rajibraj',
-        title: 'Metropol',
-        author: 'Mina Kovačina',
-        date: 'Januar 03, 2024',
-        short: 'Započela je nova godina, a sa njom i nova dešavanja u Savezu studenata FON-a. Upravo je počeo novi ciklus Dana prakse, a prvi u nizu je Dan prakse za IT studente. Ovaj događaj će se održati 27. januara 2024. godine u periodu od 10 do 18 časova.',
-        longText: '<p>Započela je nova godina, a sa njom i nova dešavanja u Savezu studenata FON-a. Upravo je počeo novi ciklus Dana prakse, a prvi u nizu je Dan prakse za IT studente. Ovaj događaj će se održati 27. januara 2024. godine u periodu od 10 do 18 časova. Na ovom događaju će studenti imati priliku da se upoznaju sa kompanijama iz IT sektora, da čuju njihova iskustva i da se informišu o mogućnostima za praksu i zaposlenje. Osim toga, studenti će imati priliku da prisustvuju radionicama koje će održati kompanije, kao i da se prijave za fokus grupe. Ukoliko želite da saznate više o ovom događaju, posetite naš sajt i društvene mreže. Vidimo se!</p>',
-        btnText: 'Pročitaj više',
-    },
-    {
-        imgUrl: 'assets/images/blog/02.jpg',
-        imgAlt: 'blog thumb rajibraj91 rajibraj',
-        title: 'Idemo odmah odmah',
-        author: 'Mina Kovačina',
-        date: 'Januar 01, 2024',
-        short: 'Započela je nova godina, a sa njom i nova dešavanja u Savezu studenata FON-a. Upravo je počeo novi ciklus Dana prakse, a prvi u nizu je Dan prakse za IT studente. Ovaj događaj će se održati 27. januara 2024. godine u periodu od 10 do 18 časova.',
-        longText: '<p>Započela je nova godina, a sa njom i nova dešavanja u Savezu studenata FON-a. Upravo je počeo novi ciklus Dana prakse, a prvi u nizu je Dan prakse za IT studente. Ovaj događaj će se održati 27. januara 2024. godine u periodu od 10 do 18 časova. Na ovom događaju će studenti imati priliku da se upoznaju sa kompanijama iz IT sektora, da čuju njihova iskustva i da se informišu o mogućnostima za praksu i zaposlenje. Osim toga, studenti će imati priliku da prisustvuju radionicama koje će održati kompanije, kao i da se prijave za fokus grupe. Ukoliko želite da saznate više o ovom događaju, posetite naš sajt i društvene mreže. Vidimo se!</p>',
-        btnText: 'Pročitaj više',
-    },
-    {
-        imgUrl: 'assets/images/blog/03.jpg',
-        imgAlt: 'blog thumb rajibraj91 rajibraj',
-        title: 'Naslov 4',
-        author: 'Mina Kovačina',
-        date: 'Decembar 19, 2023',
-        short: 'Započela je nova godina, a sa njom i nova dešavanja u Savezu studenata FON-a. Upravo je počeo novi ciklus Dana prakse, a prvi u nizu je Dan prakse za IT studente. Ovaj događaj će se održati 27. januara 2024. godine u periodu od 10 do 18 časova.',
-        longText: '<p>Započela je nova godina, a sa njom i nova dešavanja u Savezu studenata FON-a. Upravo je počeo novi ciklus Dana prakse, a prvi u nizu je Dan prakse za IT studente. Ovaj događaj će se održati 27. januara 2024. godine u periodu od 10 do 18 časova. Na ovom događaju će studenti imati priliku da se upoznaju sa kompanijama iz IT sektora, da čuju njihova iskustva i da se informišu o mogućnostima za praksu i zaposlenje. Osim toga, studenti će imati priliku da prisustvuju radionicama koje će održati kompanije, kao i da se prijave za fokus grupe. Ukoliko želite da saznate više o ovom događaju, posetite naš sajt i društvene mreže. Vidimo se!</p>',
-        btnText: 'Pročitaj više',
-    },
-    {
-        imgUrl: 'assets/images/blog/03.jpg',
-        imgAlt: 'blog thumb rajibraj91 rajibraj',
-        title: 'Naslov 5',
-        author: 'Mina Kovačina',
-        date: 'Decembar 14, 2023',
-        short: 'Započela je nova godina, a sa njom i nova dešavanja u Savezu studenata FON-a. Upravo je počeo novi ciklus Dana prakse, a prvi u nizu je Dan prakse za IT studente. Ovaj događaj će se održati 27. januara 2024. godine u periodu od 10 do 18 časova.',
-        longText: '<p>Započela je nova godina, a sa njom i nova dešavanja u Savezu studenata FON-a. Upravo je počeo novi ciklus Dana prakse, a prvi u nizu je Dan prakse za IT studente. Ovaj događaj će se održati 27. januara 2024. godine u periodu od 10 do 18 časova. Na ovom događaju će studenti imati priliku da se upoznaju sa kompanijama iz IT sektora, da čuju njihova iskustva i da se informišu o mogućnostima za praksu i zaposlenje. Osim toga, studenti će imati priliku da prisustvuju radionicama koje će održati kompanije, kao i da se prijave za fokus grupe. Ukoliko želite da saznate više o ovom događaju, posetite naš sajt i društvene mreže. Vidimo se!</p>',
-        btnText: 'Pročitaj više',
-    },
-    {
-        imgUrl: 'assets/images/blog/03.jpg',
-        imgAlt: 'blog thumb rajibraj91 rajibraj',
-        title: 'Naslov 5',
-        author: 'Mina Kovačina',
-        date: 'Decembar 14, 2023',
-        short: 'Započela je nova godina, a sa njom i nova dešavanja u Savezu studenata FON-a. Upravo je počeo novi ciklus Dana prakse, a prvi u nizu je Dan prakse za IT studente. Ovaj događaj će se održati 27. januara 2024. godine u periodu od 10 do 18 časova.',
-        longText: '<p>Započela je nova godina, a sa njom i nova dešavanja u Savezu studenata FON-a. Upravo je počeo novi ciklus Dana prakse, a prvi u nizu je Dan prakse za IT studente. Ovaj događaj će se održati 27. januara 2024. godine u periodu od 10 do 18 časova. Na ovom događaju će studenti imati priliku da se upoznaju sa kompanijama iz IT sektora, da čuju njihova iskustva i da se informišu o mogućnostima za praksu i zaposlenje. Osim toga, studenti će imati priliku da prisustvuju radionicama koje će održati kompanije, kao i da se prijave za fokus grupe. Ukoliko želite da saznate više o ovom događaju, posetite naš sajt i društvene mreže. Vidimo se!</p>',
+        title: 'LinkedIN radionica za članove Saveza studenata FON-a',
+        author: 'Jana Đurić',
+        date: 'Decembar 10, 2023',
+        short: 'Početak decembra bio je u znaku LinkedIn-a. Andjela Bogićević, alumni član Savez studenata Fakulteta organizacionih nauka održala je radionicu kroz koju smo se upoznali sa mogućnostima koje nudi ova poslovna mreža.',
+        longText: <LinkedInRadionicaVest />,
         btnText: 'Pročitaj više',
     },
 
@@ -111,8 +63,17 @@ const Blog = () => {
                                         </div>
                                         <div className="post-footer">
                                             <div className="pf-left">
-                                                <Button onClick={() => prikaziVestHandler(val)} className="lab-btn-text">{val.btnText}</Button>
-                                            </div>
+                                                <div className="course-btn">
+                                                <Button onClick={() => {
+                                                    prikaziVestHandler(val);
+                                                    window.scrollTo({
+                                                        top: 500,
+                                                        left: 100,
+                                                        behavior: "smooth",
+                                                    });
+                                                }} className="lab-btn-text">{val.btnText}</Button>
+                                                </div>
+                                                </div>
                                         </div>
                                     </div>
                                 </div>
@@ -122,11 +83,20 @@ const Blog = () => {
                 </div>) : (
                     <>
                         <h3>{izabranaVest.title}</h3>
-                        <img src={`${izabranaVest.imgUrl}`}
-                             alt={`${izabranaVest.imgAlt}`}/>
-                        <p>{izabranaVest.author} : {izabranaVest.date}</p>
-                        <div dangerouslySetInnerHTML={{__html: izabranaVest.longText}} />
-                        <Button onClick={() => setPrikaziVest(false)} className="lab-btn-text">Nazad</Button>
+                        {
+                            izabranaVest.longText
+                        }
+                        <div className="course-btn">
+                        <Button onClick={() => {
+                            setPrikaziVest(false);
+                            setIzabranaVest(null);
+                            window.scrollTo({
+                                top: 500,
+                                left: 100,
+                                behavior: "smooth",
+                            });
+                        }} className="lab-btn-text">Nazad</Button>
+                        </div>
                     </>
                 )}
 

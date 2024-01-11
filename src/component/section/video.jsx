@@ -1,6 +1,3 @@
-
-
-
 const title = "It’s High Time to Start Driving Career";
 const videoLink = "https://www.youtube-nocookie.com/embed/jP649ZHA8Tg";
 

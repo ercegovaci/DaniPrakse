@@ -1,7 +1,6 @@
-import { Component, Fragment } from "react";
+import { Fragment } from "react";
 import Footer from "../component/layout/footer";
 import Header from "../component/layout/header";
-import PageHeader from "../component/layout/pageheader";
 import GoogleMap from "../component/sidebar/googlemap";
 import Banner from "../component/section/banner";
 import Instructor from "../component/section/instructor";

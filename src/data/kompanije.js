@@ -1,7 +1,9 @@
 import nestle from '../assets/images/kompanije/logoi/nestlelogo.jpeg';
 import meridian from "../assets/images/kompanije/logoi/meridian.png";
+import oblak from "../assets/images/kompanije/logoi/oblak.png";
 import Nestle from "../component/kompanije/Nestle";
 import Meridian from "../component/kompanije/Meridian";
+import Oblak from "../component/kompanije/Oblak";
 
 const kompanije = [
     {
@@ -21,7 +23,7 @@ const kompanije = [
             {
                 idKompanije: 2,
                 naziv: 'Meridian',
-                skraceniTekst: 'Meridian Gaming je globalni lider u sportskom klađenju i onlajn kazino igrama koji pruža zabavno i odgovorno iskustvo igranja za sve igrače kanala i regulisanih segmenata ponude igara na sreću.',
+                skraceniTekst: 'Meridian Gaming je globalni lider u sportskom klađenju i onlajn kazino igrama koji pruža zabavno i odgovorno iskustvo igranja za sve igrače kanala i regulisanih segmenata...',
                 kompanijaStranica: <Meridian />,
                 slika: meridian,
                 klasa: 'premium',
@@ -30,42 +32,12 @@ const kompanije = [
             },
             {
                 idKompanije: 3,
-                naziv: 'Nestlé',
-                skraceniTekst: 'Nestlé je multinacionalna kompanija sa sedištem u Švajcarskoj, koja se bavi proizvodnjom i distribucijom raznovrsnih prehrambenih proizvoda i pića širom sveta.',
-                kompanijaStranica: <Nestle />,
-                slika: nestle,
+                naziv: 'Oblak Tehnologije',
+                skraceniTekst: 'Oblak Tehnologije je jedan od vodećih sistem integratora u Srbiji koji objedinjavanjem softverskih i hardverskih elemenata u jedinstven sistem, stvara rešenja...',
+                kompanijaStranica: <Oblak />,
+                slika: oblak,
                 klasa: 'premium',
-                link: 'https://www.nestle.com/',
-                prikaziDugme: true
-            },
-            {
-                idKompanije: 4,
-                naziv: 'Nestlé',
-                skraceniTekst: 'Nestlé je multinacionalna kompanija sa sedištem u Švajcarskoj, koja se bavi proizvodnjom i distribucijom raznovrsnih prehrambenih proizvoda i pića širom sveta.',
-                kompanijaStranica: <Nestle />,
-                slika: nestle,
-                klasa: 'premium',
-                link: 'https://www.nestle.com/',
-                prikaziDugme: true
-            },
-            {
-                idKompanije: 5,
-                naziv: 'Nestlé',
-                skraceniTekst: 'Nestlé je multinacionalna kompanija sa sedištem u Švajcarskoj, koja se bavi proizvodnjom i distribucijom raznovrsnih prehrambenih proizvoda i pića širom sveta.',
-                kompanijaStranica: <Nestle />,
-                slika: nestle,
-                klasa: 'premium',
-                link: 'https://www.nestle.com/',
-                prikaziDugme: true
-            },
-            {
-                idKompanije: 6,
-                naziv: 'Nestlé',
-                skraceniTekst: 'Nestlé je multinacionalna kompanija sa sedištem u Švajcarskoj, koja se bavi proizvodnjom i distribucijom raznovrsnih prehrambenih proizvoda i pića širom sveta.',
-                kompanijaStranica: <Nestle />,
-                slika: nestle,
-                klasa: 'premium',
-                link: 'https://www.nestle.com/',
+                link: 'https://oblakteh.rs/',
                 prikaziDugme: true
             },
         ]
@@ -98,7 +70,7 @@ const kompanije = [
     },
     {
         id: 3,
-        kategorija: 'Light partneri',
+        kategorija: 'Lite partneri',
         kompanije: [
             {
                 idKompanije: 1,

@@ -1,6 +1,4 @@
 
-
-
 const GoogleMap = () => {
     return (
         <div className="map-area">

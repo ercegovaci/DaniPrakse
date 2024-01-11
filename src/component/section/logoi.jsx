@@ -90,4 +90,4 @@ const Logoi = () => {
         );
     };
 
-    export default Logoi;
+export default Logoi;

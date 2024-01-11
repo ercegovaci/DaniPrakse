@@ -1,7 +1,12 @@
 import { useState, useEffect } from "react";
+import {Container} from "react-bootstrap";
+
+const subTitle = "Do projekta je preostalo";
+const title = "JOŠ";
 
 const CountDown = () => {
-    const [countdownDate] = useState(new Date('11/09/2022').getTime());
+    const [stop, setStop] = useState(false);
+    const [countdownDate] = useState(new Date('02/26/2024 12:00:00').getTime());
     const [state, setState] = useState({
         days: 0,
         hours: 0,
@@ -10,14 +15,28 @@ const CountDown = () => {
     });
 
     useEffect(() => {
+        if (stop) {
+            return;
+        }
         setInterval(() => setNewTime(), 1000);
     });
 
     const setNewTime = () => {
+
+        if (stop) {
+            setState({ days: 0, hours: 0, minutes: 0, seconds: 0 })
+            return;
+        }
+
         if (countdownDate) {
         const currentTime = new Date().getTime();
 
         const distanceToDate = countdownDate - currentTime;
+
+        if (distanceToDate < 0) {
+            setStop(true);
+            return;
+        }
 
         let days = Math.floor(distanceToDate / (1000 * 60 * 60 * 24));
         let hours = Math.floor(
@@ -44,27 +63,35 @@ const CountDown = () => {
     };
 
     return (
-        <ul className="lab-ul date">
-            <li>
-                <h2 className="count-title days">{state.days || '0'}</h2>
-                <p className="days_text">Day</p>
-            </li>
-            <li>
-                <h2 className="count-title"><span className="hours">{state.hours || '00'}</span></h2>
-                <p className="hours_text">Hour</p>
-            </li>
-            <li>
-                <h2 className="count-title"><span className="minutes">{state.minutes || '00'}</span></h2>
-                <p className="minu_text">Minute</p>
-            </li>
-            <li>
-                <h2 className="count-title"><span className="seconds">{state.seconds || '00'}</span></h2>
-                <p className="seco_text">Secound</p>
-            </li>
-        </ul>
+        <>
+                <div className="countdown-wrapper">
+                    <div className="section-header text-center pt-5">
+                        <span className="subtitle">{subTitle}</span>
+                        <h2 className="title">{title}</h2>
+                    </div>
+                    <ul className="lab-ul date text-center justify-content-center pb-5">
+                        <li>
+                            <h2 className="count-title days">{state.days || '0'}</h2>
+                            <p className="days_text">Dana</p>
+                        </li>
+                        <li>
+                            <h2 className="count-title"><span className="hours">{state.hours || '00'}</span></h2>
+                            <p className="hours_text">Sati</p>
+                        </li>
+                        <li>
+                            <h2 className="count-title"><span className="minutes">{state.minutes || '00'}</span></h2>
+                            <p className="minu_text">Minuta</p>
+                        </li>
+                        <li>
+                            <h2 className="count-title"><span className="seconds">{state.seconds || '00'}</span></h2>
+                            <p className="seco_text">Sekundi</p>
+                        </li>
+                    </ul>
+                </div>
+        </>
+
     );
 };
-
 
 
 export default CountDown;

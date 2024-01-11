@@ -1,7 +1,5 @@
 import React, {useState} from 'react';
 import kompanije from "../../data/kompanije";
-import nestleLogo from "../../assets/images/kompanije/logoi/nestlelogo.jpeg";
-import {Link} from "react-router-dom";
 import {Button, Container} from "react-bootstrap";
 
 const KompanijeSekcija = () => {
@@ -50,14 +48,14 @@ const [prikaziKompaniju, setPrikaziKompaniju] = useState(false);
                                                                                             setIzabranaKompanija(val);
                                                                                             setPrikaziKompaniju(true);
                                                                                             window.scrollTo({
-                                                                                                top: 200,
+                                                                                                top: 500,
                                                                                                 left: 100,
                                                                                                 behavior: "smooth",
                                                                                             });
                                                                                         }}
                                                                                                 className="lab-btn-text">Prikazi
                                                                                             vise
-                                                                                            <i className="icofont-external-link"></i></Button>
+                                                                                        </Button>
                                                                                     </div>
                                                                                 )
                                                                             }
@@ -84,15 +82,17 @@ const [prikaziKompaniju, setPrikaziKompaniju] = useState(false);
                         <>
                             <Container>
                                 {izabranaKompanija.kompanijaStranica}
-                                <Button onClick={() => {
-                                    setPrikaziKompaniju(false);
-                                    setIzabranaKompanija(null);
-                                    window.scrollTo({
-                                        top: 200,
-                                        left: 100,
-                                        behavior: "smooth",
-                                    });
-                                }} variant="primary">Nazad</Button>
+                                <div className="course-btn">
+                                    <Button onClick={() => {
+                                        setPrikaziKompaniju(false);
+                                        setIzabranaKompanija(null);
+                                        window.scrollTo({
+                                            top: 500,
+                                            left: 100,
+                                            behavior: "smooth",
+                                        });
+                                    }} variant="primary">Nazad</Button>
+                                </div>
                             </Container>
                         </>
                     )

@@ -1,7 +1,4 @@
 import React from 'react';
-import tanja from "../../assets/images/contact/tim/tanja.jpeg";
-import anastasija from "../../assets/images/contact/tim/anastasija.jpeg";
-import milapujana from "../../assets/images/contact/tim/milapujana.jpeg";
 
 import marija from "../../assets/images/panelisti/marija.jpeg";
 import milos from "../../assets/images/panelisti/milos.jpeg";
@@ -47,6 +44,7 @@ const PanelDiskusija = () => {
 
             <div className="section-wrapper">
                 <h3 className="text-center font-italic">Panelisti</h3>
+                <p className="text-center text-uppercase">Karijerni kompas - četiri strane biznisa</p>
                 <div
                     className="row g-4 justify-content-center row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 m-3">
 

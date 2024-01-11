@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import Rating from "../sidebar/rating";
 import aftermovie from '../../assets/images/aftermovie.mov';

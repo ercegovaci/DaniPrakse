@@ -1835,7 +1835,6 @@ button {
 }
 
 .achieve-item .achieve-inner {
-    padding: 30px;
     box-shadow: 0 5px 10px rgba(16, 17, 21, 0.1);
 }
 @media (min-width: 576px) {
@@ -1850,6 +1849,8 @@ button {
 @media (min-width: 576px) {
     .achieve-item .achieve-inner .achieve-content {
         width: 60%;
+        z-index: 1;
+        padding: 20px;
     }
 }
 .achieve-item .achieve-inner .achieve-content p {
@@ -3717,6 +3718,9 @@ button {
 }
 @media (max-width: 575px) {
     .about-section.style-3 .about-left .abs-thumb {
+        display: none;
+    }
+    .about-left img {
         display: none;
     }
 }
@@ -6585,19 +6589,19 @@ footer.style-2 .footer-top.dark-view * {
 }
 
 .premium {
-    background-color: gold !important;
+    background-color: #dda520 !important;
 }
 
 .medium {
-    background-color: #140cf5 !important;
+    background-color: #C0C0C0 !important;
 }
 
 .light {
-    background-color: #addcad !important;
+    background-color: rgba(187, 132, 86, 0.91) !important;
 }
 
 .naturalni {
-    background-color: #0a5b97 !important;
+    background-color: #fff !important;
 }
 
 .nagradni {
@@ -6612,4 +6616,17 @@ footer.style-2 .footer-top.dark-view * {
     min-height: 120px !important;
 }
 
+.course-btn button {
+    background-color: #0b0b0b;
+    color: #fff;
+}
+.course-btn button:hover {
+    background-color: #0b0b0b;
+    color: #fff;
+}
+
+.countdown-wrapper {
+    background-color: #f5f5f5;
+    color: #fff;
+}
 /*# sourceMappingURL=style.css.map */

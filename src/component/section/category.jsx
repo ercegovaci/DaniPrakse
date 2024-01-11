@@ -1,5 +1,12 @@
-
 import { Link } from "react-router-dom";
+
+import sajam from '../../assets/images/ikonice-kategorije/sajamKompanija.png';
+import panelDiskusija from '../../assets/images/ikonice-kategorije/paneldiskusija.png';
+import radionice from '../../assets/images/ikonice-kategorije/radioniceKompanija.png';
+import takmicarskiDeo from '../../assets/images/ikonice-kategorije/takmicarskiDeo.png';
+import tvojih15minuta from '../../assets/images/ikonice-kategorije/tvojih15.png';
+import spremanZaDane from '../../assets/images/ikonice-kategorije/spremanZaDane.png';
+
 
 const subTitle = "Upoznajte se sa";
 const title = "DELOVIMA PROJEKTA";
@@ -7,37 +14,37 @@ const title = "DELOVIMA PROJEKTA";
 
 const categoryList = [
     {
-        imgUrl: 'assets/images/category/icon/01.jpg',
+        imgUrl: spremanZaDane,
         imgAlt: 'category rajibraj91 rajibraj',
         title: 'Spreman za Dan(e)',
         count: '4 predavanja',
     },
     {
-        imgUrl: 'assets/images/category/icon/02.jpg',
+        imgUrl: panelDiskusija,
         imgAlt: 'category rajibraj91 rajibraj',
         title: 'Panel-diskusija',
         count: '4 panelista',
     },
     {
-        imgUrl: 'assets/images/category/icon/03.jpg',
+        imgUrl: tvojih15minuta,
         imgAlt: 'category rajibraj91 rajibraj',
         title: 'Tvojih 15 minuta',
         count: 'Intervjui',
     },
     {
-        imgUrl: 'assets/images/category/icon/04.jpg',
+        imgUrl: sajam,
         imgAlt: 'category rajibraj91 rajibraj',
         title: 'Sajam kompanija',
         count: '30+ kompanija',
     },
     {
-        imgUrl: 'assets/images/category/icon/05.jpg',
+        imgUrl: takmicarskiDeo,
         imgAlt: 'category rajibraj91 rajibraj',
         title: 'Takmičarski deo',
         count: 'Studija slučaja',
     },
     {
-        imgUrl: 'assets/images/category/icon/06.jpg',
+        imgUrl: radionice,
         imgAlt: 'category rajibraj91 rajibraj',
         title: 'Radionice kompanija',
         count: 'Fokus grupe',

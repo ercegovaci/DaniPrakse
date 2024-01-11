@@ -1,6 +1,4 @@
 
-
-
 const Rating = () => {
     return (
         <span className="ratting">

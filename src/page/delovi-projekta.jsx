@@ -1,4 +1,4 @@
-import { Component, Fragment } from "react";
+import { Fragment } from "react";
 import radionice1 from '../assets/images/delovi/radionice/1.jpg';
 import radionice2 from '../assets/images/delovi/radionice/2.jpeg';
 import radionice3 from '../assets/images/delovi/radionice/3.jpg';

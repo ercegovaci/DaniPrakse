@@ -1,4 +1,4 @@
-import cv_woman from '../../assets/images/cv-woman-no-bg.png';
+import background from '../../assets/images/background.png';
 
 const subTitle = "O Danima prakse";
 const title = "Najveći koorporativni događaj celog univerziteta";
@@ -62,7 +62,7 @@ const About = () => {
                     <div className="col">
                         <div className="about-left">
                             <div className="about-thumb">
-                                <img src={ cv_woman } alt="about" />
+                                <img src={ background } alt="about" />
                             </div>
                         </div>
                     </div>

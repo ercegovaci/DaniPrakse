@@ -38,7 +38,7 @@ const prijaviSe = (e) => {
             <form onSubmit={prijaviSe}>
                 <div className="nf-list">
                     <input type="email" name="email" placeholder="Vaš email" />
-                    <input disabled={true} type="submit" name="submit" value="Pretplatite se sada" />
+                    <input disabled={disableDugme} type="submit" name="submit" value="Pretplatite se sada" />
                 </div>
             </form>
             {

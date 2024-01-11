@@ -91,7 +91,9 @@ const posaljiCV = (e) => {
                     </Row>
                     <Row>
                         <Col>
-                            <Button disabled={true} variant="primary" type="submit">Posalji CV</Button>
+                            <div className="course-btn">
+                                <Button variant="primary" type="submit">Posalji CV</Button>
+                            </div>
                         </Col>
                     </Row>
                 </Form>
