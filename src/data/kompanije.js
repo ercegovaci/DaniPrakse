@@ -1,9 +1,23 @@
 import nestle from '../assets/images/kompanije/logoi/nestlelogo.jpeg';
 import meridian from "../assets/images/kompanije/logoi/meridian.png";
 import oblak from "../assets/images/kompanije/logoi/oblak.png";
+import balkanfun from "../assets/images/kompanije/logoi/balaknfun.png";
+import ball from "../assets/images/kompanije/logoi/ball-sa-belom-pozadinom.png";
+import apatinska from "../assets/images/kompanije/logoi/apatinska.png";
+import sportvision from "../assets/images/kompanije/logoi/sportVision.png";
+import lukova from "../assets/images/kompanije/logoi/lukova.png";
+import wiener from "../assets/images/kompanije/logoi/wiener.png";
+import nbsoft from "../assets/images/kompanije/logoi/nbsoft.png";
+import knjaz from "../assets/images/kompanije/logoi/knjaz.png";
+import pepsico from "../assets/images/kompanije/logoi/pepsico.png";
+
 import Nestle from "../component/kompanije/Nestle";
 import Meridian from "../component/kompanije/Meridian";
 import Oblak from "../component/kompanije/Oblak";
+import Ball from "../component/kompanije/Ball";
+import Apatinska from "../component/kompanije/Apatinska";
+import Knjaz from "../component/kompanije/Knjaz";
+import Pepsico from "../component/kompanije/Pepsico";
 
 const kompanije = [
     {
@@ -40,6 +54,36 @@ const kompanije = [
                 link: 'https://oblakteh.rs/',
                 prikaziDugme: true
             },
+            {
+                id: 4,
+                naziv: 'Ball corporation',
+                skraceniTekst: 'U kompaniji Ball mi smo globalni tim koji sledi zajedničku viziju. Prihvatamo različitost i pružamo inkluzivno okruženje u kojem svi zaposleni mogu napredovati. Vizija za ono što sledi vodi nas svaki dan i spremni smo da budemo hrabri i da razvijamo rešenja za najveće izazove sa kojima se suočavaju naši klijenti. ',
+                kompanijaStranica: <Ball />,
+                slika: ball,
+                klasa: 'premium',
+                link: 'https://balkanfun.travel/',
+                prikaziDugme: true
+            },
+            {
+                id: 5,
+                naziv: 'Apatinska pivara',
+                skraceniTekst: 'Apatinska pivara je jedan od lidera u proizvodnji piva na domaćem tržištu. Sedište kompanije nalazi se u Apatinu, komercijalni centar u Beogradu, a distributivni centri u Odžacima, Inđiji, Mladenovcu,  Novom Sadu, Čačku i Nišu. ',
+                kompanijaStranica: <Apatinska />,
+                slika: apatinska,
+                klasa: 'premium',
+                link: 'https://apatinskapivara.rs/',
+                prikaziDugme: true
+            },
+            {
+                id: 6,
+                naziv: 'Balkan Fun',
+                skraceniTekst: 'Balkan Fun Travel aktivno sarađuje sa malim, srednjim i velikim kompanijama u realizaciji turističkih projekata svih nivoa kompleksnosti. Pored toga, Balkan Fun realizuje klasična turistička putovanja za sve generacije za desetine hiljada putnika, kao što su letovanja, zimovanja, doček nove godine u evropskim metropolama.',
+                kompanijaStranica: '',
+                slika: balkanfun,
+                klasa: 'premium',
+                link: 'https://balkanfun.travel/',
+                prikaziDugme: false
+            }
         ]
     },
     {
@@ -48,23 +92,23 @@ const kompanije = [
         kompanije: [
             {
                 idKompanije: 1,
-                naziv: 'Nestlé',
-                skraceniTekst: 'Nestlé je multinacionalna kompanija sa sedištem u Švajcarskoj, koja se bavi proizvodnjom i distribucijom raznovrsnih prehrambenih proizvoda i pića širom sveta.',
-                kompanijaStranica: <Nestle />,
-                slika: nestle,
+                naziv: 'Sport Vision',
+                skraceniTekst: 'Sport Vision je lider sportske maloprodaje na Balkanu. Osnovan je 1996. godine kao kompanija čije su osnovne delatnosti trgovina, maloprodaja i veleprodaja u oblasti sportske industrije. Danas Sport Vision zapošljava više od 4500 radnika i posluje u 13 zemalja − Srbija, Bosna i Hercegovina, Hrvatska, Slovenija, Crna Gora, Severna Makedonija, Albanija, Rumunija, Bugarska, Grčka, Republika Češka, Slovačka i Mađarska, a sedište kompanije nalazi se u Beogradu.',
+                kompanijaStranica: '',
+                slika: sportvision,
                 klasa: 'medium',
                 link: 'https://www.nestle.com/',
-                prikaziDugme: true
+                prikaziDugme: false
             },
             {
                 idKompanije: 2,
-                naziv: 'Nestlé',
-                skraceniTekst: 'Nestlé je multinacionalna kompanija sa sedištem u Švajcarskoj, koja se bavi proizvodnjom i distribucijom raznovrsnih prehrambenih proizvoda i pića širom sveta.',
-                kompanijaStranica: <Nestle />,
-                slika: nestle,
+                naziv: 'LUKOWA Group',
+                skraceniTekst: 'LUKOWA Group je konglomerat koji se bavi oblastima hrane, tehnologije i nekretnina. Neprestano proširujemo svoje poslovanje i u poslednjim godinama smo postali konglomerat koji obuhvata nekoliko poslovnih oblasti, uključujući nekretnine, upravljanje bogatstvom, zabavu i ulaganja u probojne tehnologije.',
+                kompanijaStranica: '',
+                slika: lukova,
                 klasa: 'medium',
-                link: 'https://www.nestle.com/',
-                prikaziDugme: true
+                link: 'https://www.lukowa.com/',
+                prikaziDugme: false
             },
         ]
     },
@@ -74,23 +118,23 @@ const kompanije = [
         kompanije: [
             {
                 idKompanije: 1,
-                naziv: 'Nestlé',
-                skraceniTekst: 'Nestlé je multinacionalna kompanija sa sedištem u Švajcarskoj, koja se bavi proizvodnjom i distribucijom raznovrsnih prehrambenih proizvoda i pića širom sveta.',
-                kompanijaStranica: <Nestle />,
-                slika: nestle,
+                naziv: 'Wiener Städtische osiguranje',
+                skraceniTekst: 'Wiener Städtische osiguranje deo je vodeće austrijske osiguravajuće kompanije Vienna Insurance Group (VIG), lidera u centralnoj i istočnoj Evropi, sa tradicijom dugom skoro dva veka. U Srbiji uspešno poslujemo od 2003. godine i danas imamo poslovnu mrežu u skoro 40 gradova sa više od 1.100 zaposlenih. Misija Wiener Städtische osiguranja je da obezbedi finansijsku sigurnost kroz proizvode i usluge koji zadovoljavaju najviše standarde i odgovaraju potrebama osiguranika.',
+                kompanijaStranica: '',
+                slika: wiener,
                 klasa: 'light',
-                link: 'https://www.nestle.com/',
-                prikaziDugme: true
+                link: 'https://wiener.co.rs/',
+                prikaziDugme: false
             },
             {
                 idKompanije: 2,
-                naziv: 'Nestlé',
-                skraceniTekst: 'Nestlé je multinacionalna kompanija sa sedištem u Švajcarskoj, koja se bavi proizvodnjom i distribucijom raznovrsnih prehrambenih proizvoda i pića širom sveta.',
-                kompanijaStranica: <Nestle />,
-                slika: nestle,
+                naziv: 'NB Soft',
+                skraceniTekst: 'Platforma za online prodaju sa zaokruženim order menadžmentom. Integrisana je sa preko 30 ERP poslovnih sistema, 25 platnih sistema, 20 kurirskih službi, brojnim marketing servisima. Originalno domaće rešenje kreirano u skladu sa potrebama tržišta. Do sada je realizovano preko 10 miliona porudžbina, 20 miliona registrovanih korisnika, preko dva miliona poseta dnevno!',
+                kompanijaStranica: '',
+                slika: nbsoft,
                 klasa: 'light',
-                link: 'https://www.nestle.com/',
-                prikaziDugme: true
+                link: 'https://www.nbsoft.rs/rs',
+                prikaziDugme: false
             },
         ]
     },
@@ -100,79 +144,26 @@ const kompanije = [
         kompanije: [
             {
                 idKompanije: 1,
-                naziv: 'Nestlé',
-                skraceniTekst: 'Nestlé je multinacionalna kompanija sa sedištem u Švajcarskoj, koja se bavi proizvodnjom i distribucijom raznovrsnih prehrambenih proizvoda i pića širom sveta.',
-                kompanijaStranica: <Nestle />,
-                slika: nestle,
+                naziv: 'Knjaz Miloš',
+                skraceniTekst: 'Kompanija Knjaz Miloš je među najvećim proizvođačima mineralne vode, bezalkoholnih i energetskih napitaka. Na temeljima imena i tradicije duže od dva veka, Knjaz Miloš razvija, proizvodi i plasira na tržište napitke vrhunskog kvaliteta koji potrošačima pružaju vitalnost, osveženje i energiju svakog dana.',
+                kompanijaStranica: <Knjaz />,
+                slika: knjaz,
                 klasa: 'naturalni',
                 link: 'https://www.nestle.com/',
                 prikaziDugme: true
             },
             {
                 idKompanije: 2,
-                naziv: 'Nestlé',
-                skraceniTekst: 'Nestlé je multinacionalna kompanija sa sedištem u Švajcarskoj, koja se bavi proizvodnjom i distribucijom raznovrsnih prehrambenih proizvoda i pića širom sveta.',
-                kompanijaStranica: <Nestle />,
-                slika: nestle,
+                naziv: 'PepsiCo',
+                skraceniTekst: 'Potrošači u više od 200 zemalja sveta uživaju u PepsiCo proizvodima milijardu puta dnevno. Svojim porfolijom hrane i pića koji uključuje brendove Lay\'s, Doritos, Cheetos, Gatorade, Pepsi-Cola, Mountain Dew, Quaker i SodaStream, PepsiCo je ostvario 86 milijardi dolara neto prihoda u 2022.',
+                kompanijaStranica: <Pepsico />,
+                slika: pepsico,
                 klasa: 'naturalni',
                 link: 'https://www.nestle.com/',
                 prikaziDugme: true
             },
         ]
     },
-    {
-        id: 5,
-        kategorija: 'Nagradni partneri',
-        kompanije: [
-            {
-                idKompanije: 1,
-                naziv: 'Nestlé',
-                skraceniTekst: 'Nestlé je multinacionalna kompanija sa sedištem u Švajcarskoj, koja se bavi proizvodnjom i distribucijom raznovrsnih prehrambenih proizvoda i pića širom sveta.',
-                kompanijaStranica: <Nestle />,
-                slika: nestle,
-                klasa: 'nagradni',
-                link: 'https://www.nestle.com/',
-                prikaziDugme: false
-            },
-            {
-                idKompanije: 2,
-                naziv: 'Nestlé',
-                skraceniTekst: 'Nestlé je multinacionalna kompanija sa sedištem u Švajcarskoj, koja se bavi proizvodnjom i distribucijom raznovrsnih prehrambenih proizvoda i pića širom sveta.',
-                kompanijaStranica: <Nestle />,
-                slika: nestle,
-                klasa: 'nagradni',
-                link: 'https://www.nestle.com/',
-                prikaziDugme: false
-            },
-        ]
-    },
-    {
-        id: 6,
-        kategorija: 'Medijski partneri',
-        kompanije: [
-            {
-                idKompanije: 1,
-                naziv: 'Nestlé',
-                skraceniTekst: 'Nestlé je multinacionalna kompanija sa sedištem u Švajcarskoj, koja se bavi proizvodnjom i distribucijom raznovrsnih prehrambenih proizvoda i pića širom sveta.',
-                kompanijaStranica: <Nestle />,
-                slika: nestle,
-                klasa: 'medijski',
-                link: 'https://www.nestle.com/',
-                prikaziDugme: false
-            },
-            {
-                idKompanije: 2,
-                naziv: 'Nestlé',
-                skraceniTekst: 'Nestlé je multinacionalna kompanija sa sedištem u Švajcarskoj, koja se bavi proizvodnjom i distribucijom raznovrsnih prehrambenih proizvoda i pića širom sveta.',
-                kompanijaStranica: <Nestle />,
-                slika: nestle,
-                klasa: 'medijski',
-                link: 'https://www.nestle.com/',
-                prikaziDugme: false
-            },
-        ]
-    },
-
 ];
 
 export default kompanije;

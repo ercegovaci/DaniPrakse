@@ -1,6 +1,4 @@
 import {Accordion} from "react-bootstrap";
-
-
 const AboutSavez = () => {
     return (
             <div className="course-single-section padding-tb section-bg">

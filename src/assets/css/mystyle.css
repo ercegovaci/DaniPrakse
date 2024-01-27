@@ -6629,4 +6629,8 @@ footer.style-2 .footer-top.dark-view * {
     background-color: #f5f5f5;
     color: #fff;
 }
+
+.course-footer {
+    min-height: 300px !important;
+}
 /*# sourceMappingURL=style.css.map */

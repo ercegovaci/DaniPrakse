@@ -65,7 +65,7 @@ const AchievementThree = () => {
                                                 <i className={val.iconName}></i>
                                             </div>
                                             <div className="count-content">
-                                                <h2><span className="count"><CountUp
+                                                <h2><span className="count"><CountUp duration={20}
                                                     end={val.count}/></span><span>+</span></h2>
                                                 <p>{val.desc}</p>
                                             </div>
