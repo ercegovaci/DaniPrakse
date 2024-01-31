@@ -1,10 +1,7 @@
 import React from 'react';
-import marija from "../../assets/images/panelisti/marija.jpeg";
-import milos from "../../assets/images/panelisti/milos.jpeg";
-import maksa from "../../assets/images/panelisti/maksa.jpeg";
+
 
 import petarkosovac from "../../assets/images/predavaci/petarkosovac.jpeg";
-import milanjovanovic from "../../assets/images/predavaci/milanjovanovic.jpeg";
 import sinisa from "../../assets/images/predavaci/sinisa.jpeg";
 
 const SpremanZaDaneFragment = () => {
@@ -16,12 +13,7 @@ const SpremanZaDaneFragment = () => {
             pozicija: 'Korporativni trener i kouč',
             nazivPredavanja: "Naziv predavanja",
         },
-        {
-            imgUrl: milanjovanovic,
-            ime: 'Milan Jovanović Strongman',
-            pozicija: ' Najsnažniji online preduzetnik',
-            nazivPredavanja: "Naziv predavanja",
-        },
+
         {
             imgUrl: sinisa,
             ime: 'Siniša Ubović',
@@ -32,12 +24,8 @@ const SpremanZaDaneFragment = () => {
 
     return (
         <>
-            <p>Spreman za Dan(e) predstavlja edukativni deo projekta koji će se održati 27. februara. Obuhvata radionice
-                i predavanja iz različitih oblasti na kojima ćete imati priliku da čujete o temama koje su popularne,
-                kao i o trendovima koji se prepliću u našem društvu. Kroz znanja i iskustva vrsnih predavača, uplovićete
-                u svet biznisa, saznati šta možete da očekujete na Vašem karijernom putu, ali i dobiti korisne savete za
-                lični i karijerni razvoj. </p>
-            <p>Vreme održavanja: 27. februar</p>
+            <p><b>Spreman za Dan(e)</b> predstavlja edukativni deo projekta koji će se održati <b>27. februara</b>. Obuhvata radionice i predavanja iz različitih oblasti na kojima ćete imati priliku da čujete o temama koje su popularne, kao i o trendovima koji se prepliću u našem društvu. </p>
+            <p>Kroz znanja i iskustva vrsnih predavača, uplovićete u svet biznisa, saznati šta možete da očekujete na Vašem karijernom putu, ali i dobiti korisne savete za <em>lični i karijerni razvoj.</em></p>
             <div className="section-wrapper">
                 <h3 className="text-center font-italic">Predavači</h3>
                 <div

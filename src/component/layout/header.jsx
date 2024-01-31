@@ -79,7 +79,7 @@ const Header = () => {
                                             color: "red"
                                         }
                                     } to="/ostavi-cv">Ostavi CV</NavLink></li>
-                                    <li><NavLink to="/contact">Kontakt</NavLink></li>
+                                    <li><NavLink to="/kontakt">Kontakt</NavLink></li>
                                 </ul>
                             </div>
 

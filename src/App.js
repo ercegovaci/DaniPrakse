@@ -26,7 +26,7 @@ function App() {
 				<Route path="vesti" element={<VestiStranica />} />
 				<Route path="kompanije" element={<Kompanije />} />
 				<Route path="ostavi-cv" element={<OstaviCV />} />
-				<Route path="contact" element={<ContactPage />} />
+				<Route path="kontakt" element={<ContactPage />} />
 				<Route path="*" element={<ErrorPage />} />
 			</Routes>
 		</BrowserRouter>

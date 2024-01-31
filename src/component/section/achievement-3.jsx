@@ -35,13 +35,13 @@ const achieveList = [
         imgUrl: andjela,
         imgAlt: 'achive thumb rajibraj91 rajibraj',
         title: 'Anđela Bogićević',
-        desc: 'Tokom učešća na projektu Dani Prakse, stekla sam dragoceno iskustvo koje me osnažilo i dodatno pripremilo za buduću karijeru. Ova prilika nije samo bila izvor znanja, već i olakšanje, koje je rezultiralo mogućnošću zaposlenja u sektoru ljudskih resursa kompanije Mercator. Osećam veliko uzbuđenje što ću sada moći da doprinesem uspehu naše kompanije svojim  veštinama.',
+        desc: 'Tokom učešća na projektu Dani Prakse, stekla sam dragoceno iskustvo koje me osnažilo i dodatno pripremilo za buduću karijeru. Ova prilika nije samo bila izvor znanja, već i olakšanje, koje je rezultiralo mogućnošću zaposlenja u sektoru za upravljanje projektima kompanije Mercator. Osećam veliko uzbuđenje što ću sada moći da doprinesem uspehu naše kompanije svojim veštinama.',
     },
     {
         imgUrl: dzordz,
         imgAlt: 'achive thumb rajibraj91 rajibraj',
         title: 'George Tharakan',
-        desc: 'Tokom mog učestvovanja na projektu Dani Prakse, upoznao sam nove sfere poslovnog sveta koje su mi otvorile vrata zaposlenja u globalnom trejdinškom sektoru modne i sportske industrije. Sada radim kao menadžer trejdovanja u Američkoj firmi koja se bavi distribucijom najvećih brendova poput Nike, Adidas, Converse i New Balance.',
+        desc: 'Učešćem na projektu Dani Prakse, upoznao sam nove sfere poslovnog sveta koje su mi otvorile vrata zaposlenja u međunarodnoj trgovini u sektoru modne i sportske industrije. Trenutno radim kao trejding menadžer u američkoj firmi koja posluje sa najvećim brendovima poput Nike, Adidas, Converse i New Balance.',
     }
 ]
 

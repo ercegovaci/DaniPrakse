@@ -10,6 +10,8 @@ import wiener from "../assets/images/kompanije/logoi/wiener.png";
 import nbsoft from "../assets/images/kompanije/logoi/nbsoft.png";
 import knjaz from "../assets/images/kompanije/logoi/knjaz.png";
 import pepsico from "../assets/images/kompanije/logoi/pepsico.png";
+import transfera from "../assets/images/kompanije/logoi/transfera.png";
+import bancaintesa from "../assets/images/kompanije/logoi/bancaintesa.png";
 
 import Nestle from "../component/kompanije/Nestle";
 import Meridian from "../component/kompanije/Meridian";
@@ -18,6 +20,9 @@ import Ball from "../component/kompanije/Ball";
 import Apatinska from "../component/kompanije/Apatinska";
 import Knjaz from "../component/kompanije/Knjaz";
 import Pepsico from "../component/kompanije/Pepsico";
+import Lukowa from "../component/kompanije/Lukowa";
+import Transfera from "../component/kompanije/Transfera";
+import BancaIntesa from "../component/kompanije/BancaIntesa";
 
 const kompanije = [
     {
@@ -83,7 +88,8 @@ const kompanije = [
                 klasa: 'premium',
                 link: 'https://balkanfun.travel/',
                 prikaziDugme: false
-            }
+            },
+
         ]
     },
     {
@@ -104,11 +110,31 @@ const kompanije = [
                 idKompanije: 2,
                 naziv: 'LUKOWA Group',
                 skraceniTekst: 'LUKOWA Group je konglomerat koji se bavi oblastima hrane, tehnologije i nekretnina. Neprestano proširujemo svoje poslovanje i u poslednjim godinama smo postali konglomerat koji obuhvata nekoliko poslovnih oblasti, uključujući nekretnine, upravljanje bogatstvom, zabavu i ulaganja u probojne tehnologije.',
-                kompanijaStranica: '',
+                kompanijaStranica: <Lukowa />,
                 slika: lukova,
                 klasa: 'medium',
                 link: 'https://www.lukowa.com/',
-                prikaziDugme: false
+                prikaziDugme: true
+            },
+            {
+                idKompanije: 3,
+                naziv: 'Transfera',
+                skraceniTekst: 'Kompanija Transfera, najbrže rastuća logistička kompanija u Srbiji, prethodne godine je obeležila deceniju uspešnog poslovanja, tokom koje se razvila u jednog od regionalnih lidera u domenu transporta, carinskog zastupanja, skladišno – manipulativnih operacija i distribucije.',
+                kompanijaStranica: <Transfera/>,
+                slika: transfera,
+                klasa: 'medium',
+                link: 'https://www.nestle.com/',
+                prikaziDugme: true
+            },
+            {
+                id: 4,
+                naziv: 'Banca Intesa',
+                skraceniTekst: 'Mi smo velika ekipa sa više od 3.000 zaposlenih koji svakodnevno brinu o potrebama više od 1,3 miliona klijenata. Kroz izvrsnost naših usluga i proizvoda negujući dugoročne odnose Zajedno, stvaramo inovacije i dodatnu vrednost, gradeći održivu budućnost posvećeni očuvanju životne sredine, mladim generacijama i izgradnji inkluzivnog društva.',
+                kompanijaStranica: <BancaIntesa/>,
+                slika: bancaintesa,
+                klasa: 'medium',
+                link: 'https://balkanfun.travel/',
+                prikaziDugme: true
             },
         ]
     },
