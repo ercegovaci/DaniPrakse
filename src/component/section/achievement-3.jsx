@@ -41,7 +41,7 @@ const achieveList = [
         imgUrl: dzordz,
         imgAlt: 'achive thumb rajibraj91 rajibraj',
         title: 'George Tharakan',
-        desc: 'Učešćem na projektu Dani Prakse, upoznao sam nove sfere poslovnog sveta koje su mi otvorile vrata zaposlenja u međunarodnoj trgovini u sektoru modne i sportske industrije. Trenutno radim kao trejding menadžer u američkoj firmi koja posluje sa najvećim brendovima poput Nike, Adidas, Converse i New Balance.',
+        desc: 'Učešćem na projektu Dani Prakse, upoznao sam nove sfere poslovnog sveta koje su mi otvorile vrata zaposlenja u međunarodnoj trgovini u sektoru modne i sportske industrije. Trenutno radim kao trejding menadžer u američkoj firmi koja posluje sa najvećim brendovima poput Nike, Adidas, Converse i New Balance. Smatram da je projekat Dani prakse prava prilika za svakog studenta da otkrije mogućnosti koje korporativni svet pruža.',
     }
 ]
 

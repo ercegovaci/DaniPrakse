@@ -3,7 +3,7 @@ import React from 'react';
 import marija from "../../assets/images/panelisti/marija.jpeg";
 import milos from "../../assets/images/panelisti/milos.jpeg";
 import maksa from "../../assets/images/panelisti/maksa.jpeg";
-import bojan from "../../assets/images/panelisti/bojan.jpeg";
+//import bojan from "../../assets/images/panelisti/bojan.jpeg";
 
 const PanelDiskusija = () => {
 
@@ -12,7 +12,7 @@ const PanelDiskusija = () => {
             imgUrl: marija,
             imgAlt: 'instructor rajibraj91 rajibraj',
             name: 'Marija Desivojević Cvetković',
-            description: 'Viša potpredsenica Delta Holdinga',
+            description: 'Potpredsednica za strategiju i razvoj Delta Holding-a',
             linkedInLink: 'https://www.linkedin.com/in/marijadc/',
         },
         {
@@ -30,7 +30,14 @@ const PanelDiskusija = () => {
             linkedInLink: 'https://www.linkedin.com/in/milos-maksimovic-726b8439/',
         },
         {
-            imgUrl: bojan,
+            imgUrl: maksa,
+            imgAlt: 'instructor rajibraj91 rajibraj',
+            name: 'Nebojša Matić',
+            description: 'Vlasnik kompanije Mikroelektronika',
+            linkedInLink: 'https://www.linkedin.com/in/milos-maksimovic-726b8439/',
+        },
+        {
+           // imgUrl: bojan,
             imgAlt: 'instructor rajibraj91 rajibraj',
             name: 'Bojan Mitić',
             description: 'CEO BJN holding',
@@ -40,9 +47,9 @@ const PanelDiskusija = () => {
 
     return (
         <>
-            <p><b>Panel - diskusija</b> nas ove godine očekuje <b>28. februara</b>. Cilj je da Vas upozna sa aktuelnim temama koje su važne za Vaš karijerni razvoj. Pružamo Vam mogućnost da uz pomoć stručnjaka iz različitih oblasti stvorite bolji uvid u poslovni svet, čujete brojne savete, kao i da steknete nova znanja i iskustva. </p>
-            <p>Iz godine u godinu, imali smo čast da ugostimo velike stručnjake, kompetentne da podele svoje mišljenje o temama značajnim za svakoga od nas. Kroz dinamičan razgovor koji se vodi između panelista, možete se upoznati sa različitim pogledima na aktuelna pitanja u svetu biznisa, preduzetništva, karijernog i ličnog razvoja.</p>
-            <p>Tema ovogodišnje panel-diskusije glasi <b>“Karijerni kompas-četiri strane biznisa”.</b></p>
+            <p><b>Panel - diskusija</b> te ove godine očekuje <b>28. februara</b>. <b>Cilj</b> je da te upozna sa <em>aktuelnim temama</em> koje su <em>važne za tvoj karijerni razvoj</em>. Pružamo ti mogućnost da uz pomoć stručnjaka iz različitih oblasti stvoriš bolji uvid u poslovni svet, čuješ brojne savete, kao i da stekneš nova znanja i iskustva. </p>
+            <p>Iz godine u godinu, imali smo čast da ugostimo velike stručnjake, kompetentne da podele svoje mišljenje o temama značajnim za svakoga od nas. Kroz dinamičan razgovor koji se vodi između panelista, možeš se upoznati sa različitim pogledima na aktuelna pitanja u svetu biznisa, preduzetništva, karijernog i ličnog razvoja.</p>
+            <p>Tema ovogodišnje panel-diskusije glasi <b>“Karijerni kompas-četiri strane biznisa”</b>.</p>
 
             <div className="section-wrapper">
                 <h3 className="text-center font-italic">Panelisti</h3>

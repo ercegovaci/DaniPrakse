@@ -10,22 +10,34 @@ const SpremanZaDaneFragment = () => {
         {
             imgUrl: petarkosovac,
             ime: 'Petar Kosovac',
-            pozicija: 'Korporativni trener i kouč',
-            nazivPredavanja: "Naziv predavanja",
+            pozicija: 'Poslovni trener i kouč, stučnjak za prezentacione veštine',
+            nazivPredavanja: "Prezentacione veštine",
         },
 
         {
             imgUrl: sinisa,
             ime: 'Siniša Ubović',
-            pozicija: 'Motivacioni trener',
+            pozicija: 'Glumac, pisac i međunarodno priznati trener ličnog razvoja',
             nazivPredavanja: "Naziv predavanja",
+        },
+        {
+            imgUrl: sinisa,
+            ime: 'Goran Manasijević',
+            pozicija: 'Voditelj podcast-a "Tutorup" i moderator predavanja "Na kafi sa..."',
+            nazivPredavanja: "Naziv",
+        },
+        {
+            imgUrl: sinisa,
+            ime: 'Case study club',
+            pozicija: 'Glumac, pisac i međunarodno priznati trener ličnog razvoja',
+            nazivPredavanja: "Osnove i primena studije slučaja",
         },
     ];
 
     return (
         <>
-            <p><b>Spreman za Dan(e)</b> predstavlja edukativni deo projekta koji će se održati <b>27. februara</b>. Obuhvata radionice i predavanja iz različitih oblasti na kojima ćete imati priliku da čujete o temama koje su popularne, kao i o trendovima koji se prepliću u našem društvu. </p>
-            <p>Kroz znanja i iskustva vrsnih predavača, uplovićete u svet biznisa, saznati šta možete da očekujete na Vašem karijernom putu, ali i dobiti korisne savete za <em>lični i karijerni razvoj.</em></p>
+            <p><b>Spreman za Dan(e)</b> predstavlja edukativni deo projekta koji će se održati <b>27. februara</b>. Obuhvata <em>radionice i predavanja iz različitih oblasti</em> na kojima ćeš imati priliku da čuješ o temama koje su popularne, kao i o trendovima koji se prepliću u našem društvu. </p>
+            <p>Kroz znanja i iskustva vrsnih predavača, uplovićeš u svet biznisa, saznati šta možeš da očekuješ na tvom karijernom putu, ali i dobiti korisne <em>savete za lični i karijerni razvoj</em>.</p>
             <div className="section-wrapper">
                 <h3 className="text-center font-italic">Predavači</h3>
                 <div

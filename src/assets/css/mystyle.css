@@ -2483,7 +2483,7 @@ button {
 }
 .menu > ul > li > a {
     color: #101115;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 700;
     padding: 15px 22px;
     text-transform: capitalize;

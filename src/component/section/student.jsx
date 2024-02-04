@@ -15,7 +15,7 @@ const studentList = [
         imgAlt: 'student rajibraj91 rajibraj',
         name: 'Galeb',
         degi: 'Premium Partner',
-        desc: 'Saradnja sa Savezom studenata FON-a u prethodnom periodu okarakterisala bih kao pravo\n' +
+        desc: 'Saradnju sa Savezom studenata FON-a u prethodnom periodu okarakterisala bih kao pravo\n' +
             'osveženje. Imali smo priliku da se okružimo mladim, perspektivnim studentima, da se upoznamo dublje\n' +
             'sa njihovim ciljevima i željama, i pomognemo im da iste ostvare kroz organizaciju sjajnih projekata.\n' +
             'Njihove ideje, motivacija i posvećenost učinile su nas ponosnim partnerima, zbog čega jedva čekamo da\n' +
