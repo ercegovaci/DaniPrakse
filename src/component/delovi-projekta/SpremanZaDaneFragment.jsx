@@ -3,6 +3,7 @@ import React from 'react';
 
 import petarkosovac from "../../assets/images/predavaci/petarkosovac.jpeg";
 import sinisa from "../../assets/images/predavaci/sinisa.jpeg";
+import casestudyclub from "../../assets/images/predavaci/casestudyclub.png";
 
 const SpremanZaDaneFragment = () => {
 
@@ -18,16 +19,16 @@ const SpremanZaDaneFragment = () => {
             imgUrl: sinisa,
             ime: 'Siniša Ubović',
             pozicija: 'Glumac, pisac i međunarodno priznati trener ličnog razvoja',
-            nazivPredavanja: "Naziv predavanja",
+            nazivPredavanja: "",
         },
+        // {
+        //     imgUrl: sinisa,
+        //     ime: 'Goran Manasijević',
+        //     pozicija: 'Voditelj podcast-a "Tutorup" i moderator predavanja "Na kafi sa..."',
+        //     nazivPredavanja: "Naziv",
+        // },
         {
-            imgUrl: sinisa,
-            ime: 'Goran Manasijević',
-            pozicija: 'Voditelj podcast-a "Tutorup" i moderator predavanja "Na kafi sa..."',
-            nazivPredavanja: "Naziv",
-        },
-        {
-            imgUrl: sinisa,
+            imgUrl: casestudyclub,
             ime: 'Case study club',
             pozicija: 'Glumac, pisac i međunarodno priznati trener ličnog razvoja',
             nazivPredavanja: "Osnove i primena studije slučaja",

@@ -3,7 +3,8 @@ import React from 'react';
 import marija from "../../assets/images/panelisti/marija.jpeg";
 import milos from "../../assets/images/panelisti/milos.jpeg";
 import maksa from "../../assets/images/panelisti/maksa.jpeg";
-//import bojan from "../../assets/images/panelisti/bojan.jpeg";
+import bojan from "../../assets/images/panelisti/bojan.jpeg";
+import nebojsa from "../../assets/images/panelisti/nebojsa.png";
 
 const PanelDiskusija = () => {
 
@@ -30,14 +31,14 @@ const PanelDiskusija = () => {
             linkedInLink: 'https://www.linkedin.com/in/milos-maksimovic-726b8439/',
         },
         {
-            imgUrl: maksa,
+            imgUrl: nebojsa,
             imgAlt: 'instructor rajibraj91 rajibraj',
             name: 'Nebojša Matić',
             description: 'Vlasnik kompanije Mikroelektronika',
             linkedInLink: 'https://www.linkedin.com/in/milos-maksimovic-726b8439/',
         },
         {
-           // imgUrl: bojan,
+            imgUrl: bojan,
             imgAlt: 'instructor rajibraj91 rajibraj',
             name: 'Bojan Mitić',
             description: 'CEO BJN holding',
