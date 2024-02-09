@@ -19,7 +19,7 @@ const SpremanZaDaneFragment = () => {
             imgUrl: sinisa,
             ime: 'Siniša Ubović',
             pozicija: 'Glumac, pisac i međunarodno priznati trener ličnog razvoja',
-            nazivPredavanja: "",
+            nazivPredavanja: "Mit o motivaciji",
         },
         // {
         //     imgUrl: sinisa,
