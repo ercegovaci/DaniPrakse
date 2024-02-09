@@ -35,6 +35,7 @@ import minuta4 from '../assets/images/delovi/15minuta/4.jpg';
 import minuta5 from '../assets/images/delovi/15minuta/5.jpg';
 import minuta6 from '../assets/images/delovi/15minuta/6.jpg';
 import minuta7 from '../assets/images/delovi/15minuta/7.jpg';
+import crpanel from '../assets/images/delovi/crpanel/crpanel.jpg';
 import {Carousel, Container, Row, Tab, Tabs} from "react-bootstrap";
 import SpremanZaDaneFragment from "../component/delovi-projekta/SpremanZaDaneFragment";
 import PanelDiskusija from "../component/delovi-projekta/PanelDiskusija";
@@ -42,6 +43,7 @@ import Tvojih15MinutaFragment from "../component/delovi-projekta/Tvojih15MinutaF
 import SajamKompanijaFragment from "../component/delovi-projekta/SajamKompanijaFragment";
 import TakmicarskiDeoFragment from "../component/delovi-projekta/TakmicarskiDeoFragment";
 import RadioniceKompanije from "../component/delovi-projekta/RadioniceKompanije";
+import PanelKompanija from "../component/delovi-projekta/PanelKompanija";
 
 const DeloviProjekta = () => {
 
@@ -85,6 +87,12 @@ const DeloviProjekta = () => {
                 slike: [
                     radionice1, radionice2, radionice3, radionice4
                 ]
+            },
+            {
+                id: 7,
+                naziv: 'Panel kompanija',
+                text : <PanelKompanija />,
+                slike: [ crpanel ]
             },
         ];
 

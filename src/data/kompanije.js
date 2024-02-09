@@ -12,6 +12,9 @@ import knjaz from "../assets/images/kompanije/logoi/knjaz.png";
 import pepsico from "../assets/images/kompanije/logoi/pepsico.png";
 import transfera from "../assets/images/kompanije/logoi/transfera.png";
 import bancaintesa from "../assets/images/kompanije/logoi/bancaintesa.png";
+import milsped from "../assets/images/kompanije/logoi/milsped.png";
+import metropol from "../assets/images/kompanije/logoi/metropol.png";
+import casestudyclub from "../assets/images/kompanije/logoi/casestudyclub.png";
 
 import Nestle from "../component/kompanije/Nestle";
 import Meridian from "../component/kompanije/Meridian";
@@ -23,6 +26,10 @@ import Pepsico from "../component/kompanije/Pepsico";
 import Lukowa from "../component/kompanije/Lukowa";
 import Transfera from "../component/kompanije/Transfera";
 import BancaIntesa from "../component/kompanije/BancaIntesa";
+import MILSPEDGROUP from '../component/kompanije/MILSPED';
+import Wiener from '../component/kompanije/Wiener';
+import NBsoft from '../component/kompanije/NBsoft';
+
 
 const kompanije = [
     {
@@ -31,7 +38,7 @@ const kompanije = [
         kompanije: [
             {
                 idKompanije: 1,
-                naziv: 'Nestlé',
+                naziv: 'Nestlé Adriatic S',
                 skraceniTekst: 'Nestlé je multinacionalna kompanija sa sedištem u Švajcarskoj, koja se bavi proizvodnjom i distribucijom raznovrsnih prehrambenih proizvoda i pića širom sveta.',
                 kompanijaStranica: <Nestle />,
                 slika: nestle,
@@ -87,6 +94,36 @@ const kompanije = [
                 slika: balkanfun,
                 klasa: 'premium',
                 link: 'https://balkanfun.travel/',
+                prikaziDugme: false
+            },
+            {
+                id: 7,
+                naziv: 'Milšped Group',
+                skraceniTekst: 'Kompanija Milšped počela je sa radom pre više od 30 godina, a danas je tržišni lider u oblasti transporta i logistike koja posluje u 15 zemalja i na 3 kontinenta. Pružajući svoje integrisane usluge domaćeg i međunarodnog transporta i distribucije, skladištenja, carinjenja, u sklopu grupe danas posluju i kompanije članice AML, MBOX Terminals, SKY CARGO i M-One, specijalizovane za automotive i e-comm logističke usluge, kao i intermodalni i avio transport. Grupa se ističe po globalnom prisustvu i mreži renomiranih partnera stečenoj dugogodišnjim iskustvom i logističkom ekspertizom. ',
+                kompanijaStranica: <MILSPEDGROUP />,
+                slika: milsped,
+                klasa: 'premium',
+                link: 'https://www.milsped.com/',
+                prikaziDugme: true
+            },
+            {
+                id: 8,
+                naziv: 'Metropol Palace',
+                skraceniTekst: 'Prestižna lokacija i enterijer hotela Metropol Palace, već 5. godinu za redom, predstavlja neizostavan deo projekta Dani prakse. Izgrađen je 1957. godine, vremenom renoviran i modernizovan, sa sobom nosi elegantan i vanvremenski stil. Svaki deo ovog prestižnog hotela, dizajniran je i obogaćen mnoštvom detalja i delova koji ovaj hotel čine prepoznatljivim i udobnim.Čast nam je što je Hotel Metropol Palace sa nama ove godine kao strateški partner i što ćete zajedno sa nama imati priliku da uživate u prostorijama tokom projekta ,,Dani prakse 2024’’. ',
+                kompanijaStranica: '',
+                slika: metropol,
+                klasa: 'premium',
+                link: 'https://www.metropolpalace.com/',
+                prikaziDugme: false
+            },
+            {
+                id: 9,
+                naziv: 'CASE STUDY CLUB',
+                skraceniTekst: 'Analiza, strategija, implementacija i efekti delovi su poslovne studije slučaja sa kojima će se naši delegati suočiti, a naš strateški partner Case Study Club je tu da prenese znanje i upozna vas sa koracima koji će da vas dovedu do dobrog rešenja. Drago nam je što ćete i ove godine imati priliku da učite i razvijate poslovne veštine kao i da se suočite sa realnim problem kompanije i tako sa svojim timom izađete iz zone komfora.Ne zaboravi da prijaviš svoj tim i da se oprobaš u nezaboravnom iskustvu koji će ti značiti na tvom poslovnom putu!',
+                kompanijaStranica: '',
+                slika: casestudyclub,
+                klasa: 'premium',
+                link: 'https://casestudyclub.org/en/',
                 prikaziDugme: false
             },
 
@@ -146,21 +183,21 @@ const kompanije = [
                 idKompanije: 1,
                 naziv: 'Wiener Städtische osiguranje',
                 skraceniTekst: 'Wiener Städtische osiguranje deo je vodeće austrijske osiguravajuće kompanije Vienna Insurance Group (VIG), lidera u centralnoj i istočnoj Evropi, sa tradicijom dugom skoro dva veka. U Srbiji uspešno poslujemo od 2003. godine i danas imamo poslovnu mrežu u skoro 40 gradova sa više od 1.100 zaposlenih. Misija Wiener Städtische osiguranja je da obezbedi finansijsku sigurnost kroz proizvode i usluge koji zadovoljavaju najviše standarde i odgovaraju potrebama osiguranika.',
-                kompanijaStranica: '',
+                kompanijaStranica: <Wiener/>,
                 slika: wiener,
                 klasa: 'light',
                 link: 'https://wiener.co.rs/',
-                prikaziDugme: false
+                prikaziDugme: true
             },
             {
                 idKompanije: 2,
                 naziv: 'NB Soft',
                 skraceniTekst: 'Platforma za online prodaju sa zaokruženim order menadžmentom. Integrisana je sa preko 30 ERP poslovnih sistema, 25 platnih sistema, 20 kurirskih službi, brojnim marketing servisima. Originalno domaće rešenje kreirano u skladu sa potrebama tržišta. Do sada je realizovano preko 10 miliona porudžbina, 20 miliona registrovanih korisnika, preko dva miliona poseta dnevno!',
-                kompanijaStranica: '',
+                kompanijaStranica: <NBsoft/>,
                 slika: nbsoft,
                 klasa: 'light',
                 link: 'https://www.nbsoft.rs/rs',
-                prikaziDugme: false
+                prikaziDugme: true
             },
         ]
     },
