@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Rating from "../sidebar/rating";
-import aftermovie from '../../assets/images/aftermovie.mov';
+import aftermovie from '../../assets/images/aftermovie.mp4';
 import galeb from '../../assets/images/galeb.jpeg';
 import meridianbet from '../../assets/images/meridijanbet.jpeg';
 

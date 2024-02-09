@@ -12,6 +12,10 @@ import knjaz from "../assets/images/kompanije/logoi/knjaz.png";
 import pepsico from "../assets/images/kompanije/logoi/pepsico.png";
 import transfera from "../assets/images/kompanije/logoi/transfera.png";
 import bancaintesa from "../assets/images/kompanije/logoi/bancaintesa.png";
+import dex from "../assets/images/kompanije/logoi/dex.png";
+import kreston from "../assets/images/kompanije/logoi/kreston.png";
+import mercator from "../assets/images/kompanije/logoi/mercator.png";
+
 import milsped from "../assets/images/kompanije/logoi/milsped.png";
 import metropol from "../assets/images/kompanije/logoi/metropol.png";
 import casestudyclub from "../assets/images/kompanije/logoi/casestudyclub.png";
@@ -26,6 +30,9 @@ import Pepsico from "../component/kompanije/Pepsico";
 import Lukowa from "../component/kompanije/Lukowa";
 import Transfera from "../component/kompanije/Transfera";
 import BancaIntesa from "../component/kompanije/BancaIntesa";
+import Dex from '../component/kompanije/Dex';
+import Kreston from '../component/kompanije/Kreston';
+import Mercator from '../component/kompanije/Mercator';
 import MILSPEDGROUP from '../component/kompanije/MILSPED';
 import Wiener from '../component/kompanije/Wiener';
 import NBsoft from '../component/kompanije/NBsoft';
@@ -140,7 +147,7 @@ const kompanije = [
                 kompanijaStranica: '',
                 slika: sportvision,
                 klasa: 'medium',
-                link: 'https://www.nestle.com/',
+                link: 'https://www.sportvision.rs/',
                 prikaziDugme: false
             },
             {
@@ -170,7 +177,37 @@ const kompanije = [
                 kompanijaStranica: <BancaIntesa/>,
                 slika: bancaintesa,
                 klasa: 'medium',
-                link: 'https://balkanfun.travel/',
+                link: 'https://www.bancaintesa.rs/',
+                prikaziDugme: true
+            },
+            {
+                id: 5,
+                naziv: 'Dex',
+                skraceniTekst: 'Kompanija Dex, s više od tri decenije uspešnog razvoja i primeni informacionih tehnologija u Srbiji i regionu Jugoistočne Evrope, predstavlja spoj stručnosti i iskustva. Naš tim čine stručnjaci iz različitih industrijskih oblasti, čiji timski duh i efikasnost omogućavaju postizanje maksimalnih rezultata. Već dugi niz godina istrajemo kao uspešna i renomirana kompanija.',
+                kompanijaStranica: <Dex/>,
+                slika: dex,
+                klasa: 'medium',
+                link: 'https://dex.com/',
+                prikaziDugme: true
+            },
+            {
+                id: 6,
+                naziv: 'Kreston',
+                skraceniTekst: 'Kreston MDM Revizija d.o.o. je kompanija u kojoj budućnost poslovanja postaje realnost, a učenje, napredovanje i podrška su susuština našeg uspeha. Osnovani pre više od 15 godina, postali smo sinonim za stručnost u oblasti revizije, računovodstva i poreskog savetovanja.',
+                kompanijaStranica: <Kreston/>,
+                slika: kreston,
+                klasa: 'medium',
+                link: 'https://www.kreston.com/',
+                prikaziDugme: true
+            },
+            {
+                id: 7,
+                naziv: 'Mercator-S',
+                skraceniTekst: 'Mi smo Mercator-S, članica Fortenova grupe. Sa više od 340 prodavnica različitih formata, prisutni smo, kao jedini trgovački lanac, u svim regionima Srbije. Pokrivamo sve šoping misije, od svakodnevne nabavke, preko velikih porodičnih snabdevanja, do premijum kupovine. Imamo i 4 Velpro i jedan Horeca centar. Naš tim broji više od 8.000 vrednih i posvećenih kolega koji svakog dana usluže više od 300.000 potrošača. Uvek smo blizu kupaca, od online do offline iskustva, sa širokom ponudom domaćih, regionalnih i međunarodnih brendova, sa odličnom ponudom domaćih proizvoda, od 100% domaćeg mesa do našeg brenda „Ukusi moga kraja“.',
+                kompanijaStranica: <Mercator/>,
+                slika: mercator,
+                klasa: 'medium',
+                link: 'https://mercatorcentar.rs/',
                 prikaziDugme: true
             },
         ]
